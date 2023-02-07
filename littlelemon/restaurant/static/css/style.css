@@ -135,6 +135,13 @@ input{
     line-height: 25px;
   }
 
+#button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    border: 1px solid #39bb90;
+    background-color:#39bb90;
+}
+
+
 #hero {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url('../img/restaurant_inside.jpg');
     background-size: cover;
